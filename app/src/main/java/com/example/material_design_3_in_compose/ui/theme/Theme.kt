@@ -34,9 +34,6 @@ fun MaterialDesign3inComposeTheme(
     content: @Composable () -> Unit
 ) {
     val systemController = rememberSystemUiController()
-
-
-
     val dynamicColor = isDynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
 
     val colors = if (darkTheme) {

@@ -61,7 +61,7 @@ fun ColorBox() {
                 Text(
                     text = "Primary Color",
                     color = MaterialTheme.colorScheme.onPrimary,
-                    fontSize = 28.sp
+                    fontSize = 14.sp
                 )
             }
             Box(
@@ -74,7 +74,7 @@ fun ColorBox() {
                 Text(
                     text = "On Primary Color",
                     color = MaterialTheme.colorScheme.primary,
-                    fontSize = 28.sp
+                    fontSize = 14.sp
                 )
             }
             Box(
@@ -87,7 +87,7 @@ fun ColorBox() {
                 Text(
                     text = "Secondary Color",
                     color = MaterialTheme.colorScheme.onSecondary,
-                    fontSize = 28.sp
+                    fontSize = 14.sp
                 )
             }
             Box(
@@ -100,9 +100,140 @@ fun ColorBox() {
                 Text(
                     text = "On Secondary Color",
                     color = MaterialTheme.colorScheme.secondary,
-                    fontSize = 28.sp
+                    fontSize = 14.sp
                 )
             }
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(1f)
+                    .background(MaterialTheme.colorScheme.background),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "Background Color",
+                    color = MaterialTheme.colorScheme.onBackground,
+                    fontSize = 14.sp
+                )
+            }
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(1f)
+                    .background(MaterialTheme.colorScheme.onBackground),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "On Background Color",
+                    color = MaterialTheme.colorScheme.background,
+                    fontSize = 14.sp
+                )
+            }
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(1f)
+                    .background(MaterialTheme.colorScheme.surface),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "Surface Color",
+                    color = MaterialTheme.colorScheme.onSurface,
+                    fontSize = 14.sp
+                )
+            }
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(1f)
+                    .background(MaterialTheme.colorScheme.onSurface),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "On Surface Color",
+                    color = MaterialTheme.colorScheme.surface,
+                    fontSize = 14.sp
+                )
+            }
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(1f)
+                    .background(MaterialTheme.colorScheme.error),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "Error Color",
+                    color = MaterialTheme.colorScheme.onError,
+                    fontSize = 14.sp
+                )
+            }
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(1f)
+                    .background(MaterialTheme.colorScheme.onError),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "On Error Color",
+                    color = MaterialTheme.colorScheme.error,
+                    fontSize = 14.sp
+                )
+            }
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(1f)
+                    .background(MaterialTheme.colorScheme.onPrimaryContainer),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "On Primary Container Color",
+                    color = MaterialTheme.colorScheme.primaryContainer,
+                    fontSize = 14.sp
+                )
+            }
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(1f)
+                    .background(MaterialTheme.colorScheme.primaryContainer),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "Primary Container Color",
+                    color = MaterialTheme.colorScheme.onPrimaryContainer,
+                    fontSize = 14.sp
+                )
+            }
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(1f)
+                    .background(MaterialTheme.colorScheme.onSecondaryContainer),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "On Secondary Container Color",
+                    color = MaterialTheme.colorScheme.secondaryContainer,
+                    fontSize = 14.sp
+                )
+            }
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(1f)
+                    .background(MaterialTheme.colorScheme.secondaryContainer),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "Secondary Container Color",
+                    color = MaterialTheme.colorScheme.onSecondaryContainer,
+                    fontSize = 14.sp
+                )
+            }
+
         }
 
 }
